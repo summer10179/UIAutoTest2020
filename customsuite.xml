@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+  <test name="ls">
+   <groups>
+            <dependencies>
+                <group name="app" depends-on="tomcat" />
+            </dependencies>
+        </groups>
+
+    <classes>
+      <class name="TestDependenceTest"/>
+    </classes>
+  </test> <!-- ls -->
+</suite> <!-- Default Suite -->

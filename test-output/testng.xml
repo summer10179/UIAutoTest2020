@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="wmsautotest">
+
+<!-- 保证classes 文件优先执行 -->
+    <test name="makdata" preserve-order="true" verbose="3">
+        <classes>
+            <class name="com.shaxi.TestCase.TestLogON"/>
+
+        </classes>
+    </test>
+
+
+
+<!--     <listeners>-->
+<!--             <listener class-name="com.wss.client.OverrideIAnnotationTransformer" />-->
+<!--             <listener class-name="com.wss.client.RetryListener" />-->
+<!--     </listeners>-->
+
+</suite>
